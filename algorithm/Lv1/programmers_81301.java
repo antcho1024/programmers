@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_81301 {
     public static int solution(String s) {
         s = s.replace("zero", "0");

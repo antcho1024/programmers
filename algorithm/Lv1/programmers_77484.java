@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_77484 {
     public int[] solution(int[] lottos, int[] win_nums) {
         int cnt_0=0, cnt_w=0;

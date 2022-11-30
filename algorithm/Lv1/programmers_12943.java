@@ -1,4 +1,4 @@
-import java.security.spec.RSAOtherPrimeInfo;
+package Lv1;
 
 public class programmers_12943 {
     public int solution(int num) {

@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_86491 {
     public int solution(int[][] sizes) {
         int[][] tmp = new int[sizes.length][2];

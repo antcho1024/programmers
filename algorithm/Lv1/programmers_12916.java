@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_12916 {
     boolean solution(String s) {
         boolean answer = true;

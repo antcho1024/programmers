@@ -1,3 +1,5 @@
+package Lv1;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -48,10 +50,10 @@ public class prac_stream {
 
 
         //예제 3 (map 연산)
-//        List<Sale> sales = Arrays.asList(
-//                new Sale("Apple", 5000, 0.05f),
-//                new Sale("Orange", 4000, 0.2f),
-//                new Sale("Grape", 2000, 0),
+//        List<Lv1.Sale> sales = Arrays.asList(
+//                new Lv1.Sale("Apple", 5000, 0.05f),
+//                new Lv1.Sale("Orange", 4000, 0.2f),
+//                new Lv1.Sale("Grape", 2000, 0),
 //        );
 //        sales.stream()
 //                .map()

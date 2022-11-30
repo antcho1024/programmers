@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_12977 {
     public boolean is_prime(int number) {
         if(number < 2) return false;

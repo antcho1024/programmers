@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_82612 {
     public long solution(int price, int money, int count) {
         long answer = -1;

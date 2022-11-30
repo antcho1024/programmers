@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_12947 {
     public boolean solution(int x) {
         int n = x;

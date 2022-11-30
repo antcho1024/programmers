@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_12926 {
     public String solution(String s, int n) {
         StringBuilder sb = new StringBuilder(s);

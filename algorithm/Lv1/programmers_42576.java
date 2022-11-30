@@ -1,3 +1,5 @@
+package Lv1;
+
 import java.util.Arrays;
 
 public class programmers_42576 {

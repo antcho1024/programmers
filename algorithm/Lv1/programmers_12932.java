@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_12932 {
     public int[] solution(long n) {
         int length = (int)(Math.log10(n)+1);

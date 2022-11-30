@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_12928 {
     public int solution(int n) {
         int answer = 0;

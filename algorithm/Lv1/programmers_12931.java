@@ -1,3 +1,5 @@
+package Lv1;
+
 import java.util.*;
 
 public class programmers_12931 {

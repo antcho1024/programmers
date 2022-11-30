@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_12934 {
     public long solution(long n) {
         double tmp = Math.sqrt(n);

@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_77884 {
     public int divisor_count(int n){
         int cnt=0;

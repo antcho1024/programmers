@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_12906 {
     public int[] solution(int []arr) {
         int[] answer = new int[arr.length];

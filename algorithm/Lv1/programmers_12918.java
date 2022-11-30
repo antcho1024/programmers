@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package Lv1;
 
 public class programmers_12918 {
     public boolean solution(String s) {

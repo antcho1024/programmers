@@ -1,3 +1,5 @@
+package Lv1;
+
 public class programmers_12922 {
     public String solution(int n) {
         String answer = "";
