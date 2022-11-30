@@ -1,17 +1,24 @@
 package Lv1;
 
-import java.util.Arrays;
+import java.util.HashMap;
 
 public class programmers_42576 {
     public String solution(String[] participant, String[] completion) {
-        Arrays.sort(participant);
-        Arrays.sort(completion);
-        int i=0;
-        for(;i<completion.length; i++){
-            if(!participant[i].equals(completion[i])) break;
-        }
+        String answer = "";
+        HashMap<String, Integer> hashMap = new HashMap<String, Integer>();
 
-        return participant[i];
+        for(String person : participant){
+            hashMap.put(person,hashMap.getOrDefault(person,0)+1);
+        }
+        for(String person : completion){
+            hashMap.put(person, hashMap.get(person)-1);
+        }
+        for (String key : hashMap.keySet()) {
+            if (hashMap.get(key) != 0){
+                answer = key;
+            }
+        }
+        return answer;
     }
     public static void main(String[] args){
         String[] a = {"mislav", "stanko", "mislav", "ana"};
